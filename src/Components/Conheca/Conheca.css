@@ -1,0 +1,59 @@
+.cont{
+  display: flex;
+  justify-content: center;
+}
+
+.ContainerSobre1 {
+  width: 88%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.container12{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ContainerSobre1 h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#Sobre{
+  margin-bottom: 2rem;
+}
+
+.colfull{
+  width: 50%;
+  height: 130px;
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.bolinha{
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 850px; 
+  /* AJEITAR NA TELA ESTREITA */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bolinha p{
+  text-align: center;
+}

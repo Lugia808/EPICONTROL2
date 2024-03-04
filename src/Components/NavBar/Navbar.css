@@ -1,0 +1,61 @@
+/* Adicione este código ao seu arquivo de estilos (por exemplo, Navbar.css) */
+
+#my-navbar {
+  background-color: rgba(54, 91, 255, 0);
+  overflow: hidden;
+}
+.hrNav {
+  width: 49%;
+  margin-left: 15.5%;
+}
+
+.my-navbar-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1.5rem;
+  margin: 0;
+  margin-top: 2rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+.LogoNav {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  margin-left: 17%;
+  margin-right: 5%;
+}
+
+.my-navbar-list li {
+}
+
+.my-navbar-link {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.my-navbar-link:hover {
+  background-color: #ddd;
+  border-radius: 2rem;
+  color: black;
+}
+
+.conectNav {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.boxConect {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1.5rem;
+  margin-left: 25%;
+  overflow: hidden;
+}

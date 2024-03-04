@@ -1,0 +1,54 @@
+.ContainerSobre1 {
+  width: 88%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContainerSobre h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#Sobre{
+  margin-bottom: 2rem;
+}
+
+.container12{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box11{
+  width: 90%;
+  height: 300px;
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-direction: row;
+}
+
+.ssbbx{
+  width: 50%;
+  display: flex;
+}
+
+
+.subbox1{
+  width: 100%;
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+.subbox2{
+  width: 100%;
+  background-color: red;
+}

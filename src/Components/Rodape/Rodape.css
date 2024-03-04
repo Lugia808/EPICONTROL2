@@ -1,0 +1,77 @@
+.containerRodape {
+  background: rgb(3, 21, 46);
+
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-top: 10rem;
+  height: 36vh;
+  border-top: 2px solid white;
+}
+.containerItensRodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.RodapeTitle,
+.h1Rodape {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.RodapeTitle p {
+  font-size: 14px;
+  margin-right: 7%;
+}
+
+.h1Rodape {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.margin {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+.marginCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+.containerImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+.containerIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerCont > a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.final > a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
